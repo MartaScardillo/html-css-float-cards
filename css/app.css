@@ -4,9 +4,27 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.main-header > h1 {
+    color: #E53170;
+    padding: 25px;
+}
+
+.main-header > p {
+    padding-bottom: 25px;
+}
+
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+
 }
 
 .clearfix::after {
@@ -15,31 +33,34 @@
     clear: both;
 }
 
-.float {
+.float-left {
     float: left;
 }
 
+.float-right {
+    float: right;
+}
+
 .card {
-    border: 3px solid #e63493;
-    padding: 20px;
+    background-color: #100E17;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px 5px;
+    width: calc((100% - 30px) / 3);
 }
 
-/* img {
-    max-width: 50px;
-} */
-
-
-
-/* debug */
-
-.debug {
-    background-color: palegoldenrod;
+.card-data > * {
+    color: white;
+    padding: 5px;
 }
 
-.debug.container {
-    border: 5px solid pink;
+.bg-dark {
+    background-color: #222222;
+    height: 150px;
 }
 
-.debug.main-header {
-    border: 5px solid aqua;
+.footer {
+    color: white;
+    text-align: center;
+    width: 800px;
+    padding: 50px 0;
 }
