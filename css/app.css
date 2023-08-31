@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.card {
+    border: 3px solid #e63493;
+    padding: 20px;
+}
+
+/* img {
+    max-width: 50px;
+} */
+
+
+
+/* debug */
+
+.debug {
+    background-color: palegoldenrod;
+}
+
+.debug.container {
+    border: 5px solid pink;
+}
+
+.debug.main-header {
+    border: 5px solid aqua;
+}
